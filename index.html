@@ -1,187 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Global Sourcing Report</title>
-<meta name="description" content="Independent supplier research with match scores, risk flags, and a practical next-step plan. No commissions. No paid placements.">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Sourcing Report | Independent Sourcing Decision Intelligence</title>
+<meta name="description" content="Independent sourcing decision intelligence. Compare suppliers, countries, evidence, risks, and next actions before capital is committed.">
 <style>
-  body { margin: 0; font-family: Georgia, serif; background: #f7f6f2; color: #24323d; line-height: 1.6; }
-  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-  header { background: #12324a; color: white; padding: 18px 0; }
-  header .wrap { display: flex; justify-content: space-between; align-items: center; }
-  .logo { font-weight: 700; font-size: 22px; letter-spacing: 0.5px; }
-  nav a { color: white; text-decoration: none; margin-left: 22px; font-size: 15px; }
-  .btn { display: inline-block; background: #0f7a57; color: white; padding: 14px 26px; border-radius: 8px; text-decoration: none; font-weight: 700; }
-  .btn:hover { background: #0d6a4b; }
-  .hero { background: linear-gradient(135deg, #12324a, #0f7a57); color: white; padding: 80px 0; }
-  .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: center; }
-  .hero h1 { font-size: 48px; line-height: 1.15; margin: 0 0 20px; }
-  .eyebrow { text-transform: uppercase; letter-spacing: 1px; font-size: 13px; opacity: 0.85; margin-bottom: 12px; }
-  .snapshot { background: white; color: #24323d; border-radius: 16px; padding: 28px; box-shadow: 0 15px 40px rgba(0,0,0,0.15); }
-  .snapshot h3 { margin-top: 0; color: #12324a; }
-  .metric { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #eee; }
-  .metric:last-child { border-bottom: none; }
-  .trust { text-align: center; padding: 18px 0; background: #eef8f3; font-size: 15px; color: #355266; }
-  section { padding: 70px 0; }
-  h2 { font-size: 34px; color: #12324a; margin-bottom: 16px; }
-  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 30px; }
-  .card { background: white; border-radius: 14px; padding: 24px; border: 1px solid #dde5e8; box-shadow: 0 6px 20px rgba(18,50,74,0.05); }
-  .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 30px; }
-  .price-card { background: white; border-radius: 16px; padding: 32px; border: 1px solid #dde5e8; }
-  .price-card.popular { border: 2px solid #d2a34b; position: relative; }
-  .badge { position: absolute; top: -12px; left: 20px; background: #d2a34b; color: white; font-size: 12px; padding: 4px 12px; border-radius: 20px; font-weight: 700; }
-  .price { font-size: 42px; font-weight: 700; color: #12324a; margin: 12px 0; }
-  .faq details { background: white; margin-bottom: 12px; border-radius: 10px; padding: 16px 20px; border: 1px solid #dde5e8; }
-  footer { background: #12324a; color: #dbe6ee; padding: 30px 0; text-align: center; font-size: 14px; }
-  @media (max-width: 800px) {
-    .hero-grid, .pricing-grid { grid-template-columns: 1fr; }
-    .hero h1 { font-size: 36px; }
-    nav { display: none; }
-  }
+:root{--n:#0B1E35;--s:#5A6D7E;--o:#FF6A3D;--p:#F8F6F1;--l:#dbe2e8}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.6 Arial,sans-serif;color:#17212b}a{text-decoration:none;color:inherit}.c{width:min(1120px,92%);margin:auto}.hdr{position:sticky;top:0;z-index:10;background:#fffffff2;border-bottom:1px solid var(--l)}.hi{display:flex;align-items:center;justify-content:space-between;padding:15px 0;gap:20px}.brand{font-weight:800;color:var(--n)}.brand small{display:block;color:var(--s);font-weight:400}.nav{display:flex;gap:18px;align-items:center;font-size:14px}.btn{display:inline-block;padding:12px 18px;border-radius:8px;font-weight:800}.primary{background:var(--o);color:#fff}.secondary{border:1px solid var(--n);color:var(--n);background:#fff}.hero{background:linear-gradient(135deg,var(--p),#fff);padding:78px 0}.grid2{display:grid;grid-template-columns:1.15fr .85fr;gap:46px;align-items:center}.ey,.label{font-size:12px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--o)}h1,h2,h3{color:var(--n);line-height:1.15}h1{font-size:clamp(42px,6vw,68px);margin:10px 0 22px}.lead{font-size:20px;color:#36495b}.actions,.trust{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.trust span{border:1px solid var(--l);border-radius:999px;padding:7px 11px;background:#fff;font-size:13px}.brief,.card,.step,.tool,.price,.box{background:#fff;border:1px solid var(--l);border-radius:14px;padding:22px}.brief{box-shadow:0 18px 45px #0b1e3520}.row{display:flex;justify-content:space-between;border-top:1px solid var(--l);padding:12px 0}.rec{background:var(--p);border-left:4px solid var(--o);padding:13px;margin-top:10px}.sec{padding:72px 0}.light{background:var(--p)}.head{max-width:790px;margin-bottom:32px}.head h2{font-size:clamp(30px,4vw,46px);margin:8px 0 14px}.three,.five{display:grid;gap:18px}.three{grid-template-columns:repeat(3,1fr)}.five{grid-template-columns:repeat(5,1fr)}.num{color:var(--o);font-size:12px;font-weight:900}.step p,.card p,.tool p{font-size:14px;color:#526576}.ba{display:grid;grid-template-columns:1fr 1fr;gap:16px}.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.price.pop{border:2px solid var(--o)}.money{font-size:34px;font-weight:900;color:var(--n)}.price ul{padding-left:19px}.tag{display:inline-block;background:var(--o);color:#fff;border-radius:999px;padding:4px 9px;font-size:11px;font-weight:800}.ind{background:var(--n);color:#fff;border-radius:16px;padding:30px}.ind h2{color:#fff}.proof{display:grid;gap:12px}.proof div{background:#fff;border:1px solid var(--l);border-radius:12px;padding:16px}.proof strong{display:block;color:var(--n)}.proof span{color:var(--s);font-size:14px}.faq details{padding:16px 0;border-bottom:1px solid var(--l)}.faq summary{font-weight:800;color:var(--n)}.final{background:var(--n);color:#fff}.final h2{color:#fff}.foot{background:#081627;color:#d2dce5;padding:38px 0}.footgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:24px}.foot strong{color:#fff}.links{display:flex;flex-direction:column;gap:7px}.muted{color:var(--s);font-size:14px}@media(max-width:900px){.nav{display:none}.grid2,.footgrid{grid-template-columns:1fr}.three,.prices{grid-template-columns:1fr}.five{grid-template-columns:1fr 1fr}}@media(max-width:560px){.five,.ba{grid-template-columns:1fr}.hero{padding:55px 0}.actions .btn{width:100%;text-align:center}}
 </style>
 </head>
 <body>
-
-<header>
-  <div class="wrap">
-    <div class="logo">GLOBAL SOURCING REPORT</div>
-    <nav>
-      <a href="#how">How It Works</a>
-      <a href="#included">What’s Included</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-  </div>
-</header>
-
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="eyebrow">Independent supplier intelligence</div>
-      <h1>Find the right suppliers — before you risk capital or reputation.</h1>
-      <p>Independent supplier research with clear match scores, risk flags, and a practical next-step plan. No commissions. No paid placements.</p>
-      <p><strong>No supplier commissions. No paid placements. Just organized evidence you can act on.</strong></p>
-      <p style="margin-top:28px;"><a class="btn" href="#pricing">Get My Supplier Report →</a></p>
-    </div>
-    <div class="snapshot">
-      <h3>Executive Snapshot</h3>
-      <div class="metric"><span>Top Match</span><strong>—</strong></div>
-      <div class="metric"><span>Match Score</span><strong>91/100</strong></div>
-      <div class="metric"><span>Risk Level</span><strong>Moderate</strong></div>
-      <div class="metric"><span>Next Step</span><strong>Verify laboratory reports</strong></div>
-    </div>
-  </div>
-</section>
-
-<div class="trust">
-  Independent research • Suppliers cannot pay to appear • Built for Amazon sellers, importers & private-label brands
-</div>
-
-<section>
-  <div class="wrap">
-    <h2>Sourcing decisions deserve more than a marketplace search.</h2>
-    <p>A supplier’s polished profile can hide missing documentation, mismatched capabilities, or signals that deserve closer verification. We organize the public evidence so you can move forward with a clearer brief.</p>
-  </div>
-</section>
-
-<section id="how" style="background:#fff;">
-  <div class="wrap">
-    <h2>A structured brief. A defensible next step.</h2>
-    <div class="cards">
-      <div class="card"><strong>01 — Share your brief</strong><p>Tell us your product, target geography, volume, requirements, and current questions.</p></div>
-      <div class="card"><strong>02 — We research</strong><p>We examine public evidence, claims, risk signals, and fit against your sourcing criteria.</p></div>
-      <div class="card"><strong>03 — You decide</strong><p>Receive a concise report with match scoring, flags, and a practical due diligence plan.</p></div>
-    </div>
-  </div>
-</section>
-
-<section id="included">
-  <div class="wrap">
-    <h2>The clarity to ask better questions.</h2>
-    <div class="cards">
-      <div class="card"><h3>Match Score</h3><p>A clear fit score based on your stated sourcing needs.</p></div>
-      <div class="card"><h3>Risk Flags</h3><p>Signals that may require documentation, clarification, or deeper verification.</p></div>
-      <div class="card"><h3>Capability Snapshot</h3><p>Publicly available indicators of product, factory, and category relevance.</p></div>
-      <div class="card"><h3>Evidence Map</h3><p>Organized links and evidence notes so your team can verify the key claims.</p></div>
-      <div class="card"><h3>Question List</h3><p>Specific questions and documents to request before advancing conversations.</p></div>
-      <div class="card"><h3>Next-Step Plan</h3><p>A simple, prioritized plan for samples, reports, and final due diligence.</p></div>
-    </div>
-  </div>
-</section>
-
-<section style="background:#fff;">
-  <div class="wrap">
-    <h2>A research brief designed for a real decision.</h2>
-    <p><em>This is an illustrative example of the report structure and scoring methodology. It is not a live supplier recommendation.</em></p>
-  </div>
-</section>
-
-<section id="pricing">
-  <div class="wrap">
-    <h2>Clear scope. Clear independence.</h2>
-    <p><strong>One clear price. Independent research only. Suppliers cannot pay to appear.</strong></p>
-    <p>Reports are based on independent desk research using publicly available information. Final due diligence, laboratory-report verification, and sample evaluation remain the customer’s responsibility.</p>
-
-    <div class="pricing-grid">
-      <div class="price-card popular">
-        <div class="badge">MOST POPULAR</div>
-        <h3>Professional</h3>
-        <div class="price">$69</div>
-        <p>A focused supplier research brief with scoring, risk flags, and next-step questions.</p>
-      </div>
-      <div class="price-card">
-        <h3>Executive</h3>
-        <div class="price">$129</div>
-        <p>Expanded research coverage and a more detailed evidence, risk, and action plan for higher-stakes sourcing.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section style="background:#fff;">
-  <div class="wrap">
-    <h2>Built for decisive operators — not shortcut seekers.</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Who this is for</h3>
-        <p>Amazon sellers, importers, private-label brands, and operations teams who want a more organized sourcing brief before committing time or capital.</p>
-      </div>
-      <div class="card">
-        <h3>Who this is not for</h3>
-        <p>Anyone looking for a guaranteed supplier, a substitute for samples and verification, or a paid placement marketplace.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="faq">
-  <div class="wrap">
-    <h2>Research clarity, without false certainty.</h2>
-    <div class="faq">
-      <details open>
-        <summary><strong>Does a report guarantee a supplier?</strong></summary>
-        <p>No. We organize available evidence and highlight risks and open questions. Customers must still perform final due diligence, request and evaluate samples, verify laboratory reports, and negotiate directly before purchasing.</p>
-      </details>
-      <details>
-        <summary><strong>Can suppliers pay to appear?</strong></summary>
-        <p>No. The work is independent desk research. Suppliers cannot pay to appear or influence a report’s findings.</p>
-      </details>
-    </div>
-  </div>
-</section>
-
-<section style="background: linear-gradient(135deg, #12324a, #0f7a57); color: white; text-align: center; padding: 70px 20px;">
-  <h2 style="color:white;">Make the next sourcing conversation a better one.</h2>
-  <p>Start with an independent view of the evidence — then do the verification that matters.</p>
-  <p style="margin-top:30px;"><a class="btn" href="#pricing" style="background:white; color:#12324a;">Get My Supplier Report →</a></p>
-</section>
-
-<footer>
-  <div class="wrap">
-    © 2026 Global Sourcing Report • Independent research • English & Spanish
-  </div>
-</footer>
-
-</body>
-</html>
+<header class="hdr"><div class="c hi"><a class="brand" href="#top">Global Sourcing Report<small>Independent sourcing decision intelligence</small></a><nav class="nav"><a href="#method">Method</a><a href="#sample-report">Sample Report</a><a href="#tools">Tools</a><a href="#pricing">Pricing</a><a href="#about">About</a><a class="btn primary" href="#pricing">Get My Decision Brief</a></nav></div></header>
+<main id="top">
+<section class="hero"><div class="c grid2"><div><span class="ey">Independent buyer-side analysis</span><h1>Make the Supplier Decision Before the Supplier Makes It for You.</h1><p class="lead">A quotation tells you what a supplier wants you to see. The <strong>Executive Decision Brief™</strong> organizes supplier claims, documentation, country considerations, unanswered questions, costs, and alternatives into one clear sourcing decision before capital is committed.</p><div class="actions"><a class="btn primary" href="#pricing">Get My Decision Brief</a><a class="btn secondary" href="#sample-report">See Sample Brief</a></div><div class="trust"><span>No supplier commissions</span><span>No paid placement</span><span>Evidence before opinion</span><span>The buyer is our customer</span></div></div><aside class="brief"><span class="ey">Global Sourcing Report</span><h2>Executive Decision Brief™</h2><div class="row"><span>Business Fit™</span><strong>Conditional</strong></div><div class="row"><span>Decision Confidence</span><strong>Moderate</strong></div><div class="row"><span>Verification Priority</span><strong>Written supplier confirmation</strong></div><div class="rec"><strong>Immediate Next Action</strong><br>Confirm the exact product, commercial terms, and verification documents before approving a deposit.</div></aside></div></section>
+<section class="sec"><div class="c"><div class="head"><span class="label">The decision risk</span><h2>The Quotation Is Only One Part of the Decision.</h2><p>A sourcing decision can affect quality, inventory availability, cash flow, launch timing, customer experience, management attention, and the amount of capital tied up while mistakes are corrected.</p></div><div class="three"><article class="card"><span class="num">01</span><h3>The Wrong Supplier</h3><p>A responsive sales team does not prove quality, capacity, communication, consistency, or problem-resolution capability.</p></article><article class="card"><span class="num">02</span><h3>The Wrong Country</h3><p>Freight, tariffs, lead times, manufacturing depth, flexibility, resilience, and regulatory requirements can change the economics completely.</p></article><article class="card"><span class="num">03</span><h3>The Wrong Assumptions</h3><p>Certificates, samples, lead times, capacity claims, and other supplier statements should not automatically be treated as verified facts.</p></article></div></div></section>
+<section id="method" class="sec light"><div class="c"><div class="head"><span class="label">The GSR Method™</span><h2>Evidence First. Decision Second.</h2><p>Five disciplined stages turn scattered sourcing information into a clear position and practical next action.</p></div><div class="five"><article class="step"><span class="num">01 DEFINE</span><h3>Define</h3><p>Define the business decision.</p></article><article class="step"><span class="num">02 EVALUATE</span><h3>Evaluate</h3><p>Organize documented facts, supplier claims, assumptions, and gaps.</p></article><article class="step"><span class="num">03 COMPARE</span><h3>Compare</h3><p>Compare suppliers and alternatives against the factors that matter.</p></article><article class="step"><span class="num">04 RECOMMEND</span><h3>Recommend</h3><p>Form the position, Business Fit™, reasoning, and Decision Confidence.</p></article><article class="step"><span class="num">05 ACT</span><h3>Act</h3><p>Define verification priorities and immediate next actions.</p></article></div></div></section>
+<section id="sample-report" class="sec"><div class="c grid2"><div><span class="label">Real public sample</span><h2>See How GSR Turns Supplier Research Into a Decision.</h2><p>Our flagship sample is based on an actual GSR case evaluating four candidates for a white 3-prong, 6-outlet wall tap adapter. It shows the evidence trail, scoring logic, unresolved commercial questions, RFQ process, and buyer due-diligence steps.</p><p class="muted">English public version · No invented freight, tariff, or wholesale pricing</p></div><div class="brief"><span class="ey">Sample case</span><h3>6-Outlet White Wall Tap Adapter</h3><p class="muted">100 units · U.S. destination · 4 candidates reviewed</p><div class="row"><span>Eaton</span><strong>89/100</strong></div><div class="row"><span>Philips</span><strong>87/100</strong></div><div class="row"><span>Southwire / Woods</span><strong>86/100</strong></div><div class="row"><span>Jasco</span><strong>84/100</strong></div><div class="rec"><strong>Conditional Recommendation</strong><br>Eaton is the primary candidate for a controlled RFQ, subject to written confirmation of exact configuration, price, MOQ, inventory, lead time, and applicable certifications.</div><p class="muted">89/100 means best fit among reviewed candidates — not 89% verified or purchase-ready.</p></div></div></section>
+<section id="tools" class="sec light"><div class="c"><div class="head"><span class="label">Free tools</span><h2>Make a Better Decision Before You Spend Anything.</h2></div><div class="three"><article class="tool"><h3>Before You Commit Checklist</h3><p>Identify the questions that should be answered before placing an order.</p></article><article class="tool"><h3>Supplier Comparison Worksheet</h3><p>Compare competing suppliers using the same decision criteria.</p></article><article class="tool"><h3>Decision Readiness Check</h3><p>Determine whether you have enough information to make the decision confidently.</p></article></div></div></section>
+<section id="pricing" class="sec"><div class="c"><div class="head"><span class="label">Pricing</span><h2>The Cost of Better Information Is Small Compared With the Cost of the Wrong Supplier.</h2><p>Clear scope. Independent analysis. No supplier commissions and no paid placement.</p></div><div class="prices"><article class="price"><h3>Essential</h3><div class="money">$69.99</div><p>For focused decisions, up to 5 supplier evaluations.</p><ul><li>Executive Recommendation</li><li>Business Fit™</li><li>Country comparison</li><li>Immediate Next Actions</li></ul></article><article class="price pop"><span class="tag">MOST POPULAR</span><h3>Professional</h3><div class="money">$149.99</div><p>For broader decisions, up to 15 supplier evaluations.</p><ul><li>Expanded comparison</li><li>Executive Recommendation</li><li>Business Fit™</li><li>Verification priorities</li></ul></article><article class="price"><h3>GSR Intelligence Membership™</h3><div class="money">$49.99/month</div><p>For year-round sourcing decision support.</p><ul><li>5 Intelligence Cases monthly</li><li>Decision Center™</li><li>Decision Library™</li><li>Monthly Market Brief</li></ul></article></div></div></section>
+<section id="about" class="sec light"><div class="c grid2"><div class="ind"><span class="label">Why independent</span><h2>The Supplier Isn't Our Customer. You Are.</h2><p>Global Sourcing Report is designed to support the buyer's decision, not to earn a commission when a supplier transaction happens.</p><p>Sometimes the right position is to proceed. Sometimes it is to verify something first. Sometimes it is to walk away.</p></div><div class="proof"><div><strong>No supplier commissions</strong><span>We do not earn more because you choose Supplier A instead of Supplier B.</span></div><div><strong>No paid placement</strong><span>Suppliers cannot pay to improve their position in the analysis.</span></div><div><strong>Evidence before opinion</strong><span>Documented information is separated from supplier claims, assumptions, and unresolved questions.</span></div></div></div></section>
+<section class="sec"><div class="c faq"><div class="head"><span class="label">FAQ</span><h2>Clear Answers Before You Order.</h2></div><details open><summary>Is this another sourcing agent?</summary><p>No. GSR is independent buyer-side decision analysis. It does not earn supplier commissions or paid placement fees.</p></details><details><summary>Does the brief guarantee a supplier?</summary><p>No. Final due diligence, samples, certifications, contracts, and commercial negotiations remain the buyer's responsibility.</p></details><details><summary>What do I receive?</summary><p>A PDF decision document with an Executive Recommendation, Business Fit™, supplier and country comparisons where relevant, Decision Confidence, open questions, verification priorities, limitations, and Immediate Next Actions.</p></details></div></section>
+<section class="sec final"><div class="c grid2"><div><span class="label">Before money changes hands</span><h2>Know What You're Saying Yes To.</h2><p>Put the evidence, alternatives, assumptions, unresolved questions, and next actions in one place. Then make the decision.</p></div><div class="actions"><a class="btn primary" href="#pricing">Get My Executive Decision Brief™</a><a class="btn secondary" href="#sample-report">See a Sample Brief</a></div></div></section>
+</main>
+<footer class="foot"><div class="c footgrid"><div><strong>Global Sourcing Report</strong><p>Independent sourcing decision intelligence.</p></div><div class="links"><a href="#method">Method</a><a href="#sample-report">Sample Report</a><a href="#tools">Tools</a><a href="#pricing">Pricing</a><a href="#about">About</a></div><div class="links"><span>No supplier commissions</span><span>No paid placement</span><span>Independent analysis</span><span>Evidence before opinion</span></div></div></footer>
+</body></html>
